@@ -1,0 +1,13 @@
+# 로컬 tfs 템플릿(개인 노선 데이터) — 커밋 금지. templates.example.json 만 커밋.
+flight_picker/templates.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+*.egg-info/
+
+# crawl4ai / playwright 캐시
+.crawl4ai/
